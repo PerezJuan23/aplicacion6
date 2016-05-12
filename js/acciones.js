@@ -2,7 +2,7 @@
 
 $(document).ready(function (e){
  document .addEventListener ("deviceready",function(){
-  $('#beep').on('tap',function(){
+  $('#btnbeep').on('tap',function(){
 	 navigator.notification.beep(10);//numero de veces que deseas que notifique
   });//beep
 

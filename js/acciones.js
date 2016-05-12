@@ -2,8 +2,8 @@
 
 $(document).ready(function (e){
  document .addEventListener ("deviceready",function(){
-  $('#beep').tap(function(){
-	 navigator.notification.beep(1);//numero de veces que deseas que notifique
+  $('#beep').on('tap',function(){
+	 navigator.notification.beep(10);//numero de veces que deseas que notifique
   });//beep
 
  $('#btnvibrar').on('tap',function(){
